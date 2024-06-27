@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.991e22ae.css",
+    "main.js": "/static/js/main.2e108e42.js",
+    "static/media/Three Styling Tips To Make Your Photos Not Suck _ Part II — Mango Street.jpg": "/static/media/Three Styling Tips To Make Your Photos Not Suck _ Part II — Mango Street.1304605e2c0b3fcff472.jpg",
+    "static/media/Free Photo _ Flat lay italian food composition with copyspace.jpg": "/static/media/Free Photo _ Flat lay italian food composition with copyspace.09906cc6cfd8bbd5beab.jpg",
+    "static/media/Premium Photo _ Flat lay vegetables mix on cutting board with copy space.jpg": "/static/media/Premium Photo _ Flat lay vegetables mix on cutting board with copy space.78ca2d28a5ac6887a481.jpg",
+    "static/media/Premium Photo _ Dairy products frame on white surface.jpg": "/static/media/Premium Photo _ Dairy products frame on white surface.b47d5f019bc402f456ca.jpg",
+    "static/media/Premium Photo _ Dryfruits and oatmeal snack on white background.jpg": "/static/media/Premium Photo _ Dryfruits and oatmeal snack on white background.1e510b112b7f2db58fc4.jpg",
+    "index.html": "/index.html",
+    "main.991e22ae.css.map": "/static/css/main.991e22ae.css.map",
+    "main.2e108e42.js.map": "/static/js/main.2e108e42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.991e22ae.css",
+    "static/js/main.2e108e42.js"
+  ]
+}
