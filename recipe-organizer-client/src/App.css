@@ -1,0 +1,142 @@
+/* Global styles */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* Light background color */
+}
+
+/* Header styles */
+header {
+  background-color: #0073aa; /* WordPress blue */
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff; 
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header nav ul li a:hover {
+  background-color: #005a8c; /* Darker shade on hover */
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Button styles */
+button {
+  background: linear-gradient(135deg, #0073aa, #005a8c); /* Button background gradient */
+  color: white; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #005a8c, #004070); /* Darker gradient on hover */
+  transform: scale(1.05);
+}
+
+/* Main content styles */
+main {
+  background-color: transparent; /* Make the background transparent to show the image */
+  padding: 20px;
+  margin: 0;
+  min-height: calc(100vh - 104px); /* Ensure full height minus header */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px; /* Adjust for fixed header */
+}
+
+/* Dark gray content area with transparency */
+.main-content {
+  background-color: rgba(0, 0, 0, 0.7); /* Dark gray with transparency */
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  max-width: 800px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Soft shadow */
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.main-content:hover {
+  transform: translateY(-5px);
+}
+
+/* Background images for specific pages */
+body.home {
+  background-image: url("C:/recipie_organizer/recipe-organizer-client/src/Premium Photo _ Flat lay vegetables mix on cutting board with copy space.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body.signup {
+  background-image: url("C:/recipie_organizer/recipe-organizer-client/src/Premium Photo _ Dairy products frame on white surface.jpg");
+ 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body.login {
+  background-image: url("C:/recipie_organizer/recipe-organizer-client/src/Premium Photo _ Dryfruits and oatmeal snack on white background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body.add-recipe {
+  background-image: url("C:/recipie_organizer/recipe-organizer-client/src/Three Styling Tips To Make Your Photos Not Suck _ Part II — Mango Street.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body.recipes {
+  background-image: url("C:/recipie_organizer/recipe-organizer-client/src/Free Photo _ Flat lay italian food composition with copyspace.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  header nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .main-content {
+    margin: 10px;
+    padding: 10px;
+  }
+}
